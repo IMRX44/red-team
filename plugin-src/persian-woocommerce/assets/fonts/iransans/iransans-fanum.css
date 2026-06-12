@@ -1,0 +1,41 @@
+/**
+*
+*	Name:			IRANSansX Fonts
+*	Version:			3
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Apr 22, 2021
+*	Updated on:		Jul 12, 2023
+*	Website:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونتایران سنس Xا یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRANSansX fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (PTIFVGNB)
+------------------------------------------------------------------------------------- fonts/-
+*
+**/
+@font-face {
+    font-family: IRANSansFaNum;
+    src: url('iransans.woff2') format('woff2 supports variations'),
+    url('iransans.woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --pw-admin-font-family: IRANSansFaNum, sans-serif;
+}
+
+/**
+* The IRANSansX standard needs to set font-feature-setting on selectors, All admin styles selectors should be included
+*/
+body, body.rtl, body.locale-he-il, td, .wpview-error p, th, body.locale-vi, pre, body#tinymce.wp-editor.content p, body#tinymce.wp-editor.content ol, body#tinymce.wp-editor.content ul, body#tinymce.wp-editor.content dl, body.mce-content-body[data-id="content"], body.mce-content-body[data-id="content"] h1, body.mce-content-body[data-id="content"] h2, body.mce-content-body[data-id="content"] h3, body.mce-content-body[data-id="content"] h4, body.mce-content-body[data-id="content"] h5, body.mce-content-body[data-id="content"] h6, body.mce-content-body[data-id="content"] p, body#tinymce.wp-editor.content dt, body, a, p, div, input, span, h1, h2, h3, h4, h5, h6, textarea, ul, li, button, .editor-post-title__block .editor-post-title__input, .rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6, .rtl #wpadminbar *, ul#adminmenu, .contextual-help-sidebar, .help-tab-content, .active, .add-buttons-title, .updated_base, .selection-error-label, .selection-error-filename, .selection-error-message, .details, .instructions, code, p, a, h1, h2, h3, h4, h5, h6, input, label, button, select, .description, textarea, form, th, .username, .display-name, #published-posts, span.editor-block-inspector__no-blocks.block-editor-block-inspector__no-blocks, .table-of-contents__counts, input, td, .manage-menus, .widget-description, ul, li, .rtl #wpadminbar *, .editor-styles-wrapper > *, .editor-styles-wrapper p, .editor-styles-wrapper ol, .editor-styles-wrapper ul, .editor-styles-wrapper dl, .editor-styles-wrapper dt, .editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block h1, .editor-styles-wrapper .wp-block h2, .editor-styles-wrapper .wp-block h3, .editor-styles-wrapper .wp-block h4, .editor-styles-wrapper .wp-block h5, .editor-styles-wrapper .wp-block h6, .editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter, .editor-styles-wrapper cite, .editor-styles-wrapper figcaption, .editor-styles-wrapper .wp-caption-text, .editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block h1, .editor-styles-wrapper .wp-block h2, .editor-styles-wrapper .wp-block h3, .editor-styles-wrapper .wp-block h4, .editor-styles-wrapper .wp-block h5, .editor-styles-wrapper .wp-block h6, .editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter, .editor-styles-wrapper cite, .editor-styles-wrapper figcaption, .editor-styles-wrapper .wp-caption-text, .components-form-token-field__input-container, body.rtl, body.rtl .press-this a.wp-switch-editor, .wp-block-nextpage > span, .components-placeholder__error, .components-placeholder__fieldset, .components-placeholder__instructions, .components-placeholder__label, #wpadminbar > #wp-toolbar > #wp-admin-bar-top-secondary > #wp-admin-bar-search #adminbarsearch input.adminbar-input, .media-frame, .media-modal, .media-frame input[type=color], .media-frame input[type=date], .media-frame input[type=datetime-local], .media-frame input[type=datetime], .media-frame input[type=email], .media-frame input[type=month], .media-frame input[type=number], .media-frame input[type=password], .media-frame input[type=search], .media-frame input[type=tel], .media-frame input[type=text], .media-frame input[type=time], .media-frame input[type=url], .media-frame input[type=week], .media-frame select, .media-frame textarea, .media-frame .search, .rtl .media-frame, .rtl .media-frame .search, .rtl .media-frame input[type=email], .rtl .media-frame input[type=number], .rtl .media-frame input[type=password], .rtl .media-frame input[type=search], .rtl .media-frame input[type=tel], .rtl .media-frame input[type=text], .rtl .media-frame input[type=url], .rtl .media-frame select, .rtl .media-frame textarea, .rtl .media-modal, .mce-container .mce-monospace, .mce-widget .mce-monospace, .mce-window .wp-editor-help kbd, .vue__time-picker, .cx-vui-component, .cx-vui-panel, .cs-vui-title, .wrap .cs-vui-title, .cx-vui-subtitle, .cx-vui-text, .cx-vui-popup__body, .cx-vui-button, .cx-vue-list-table, .elementor-panel, body, .elementor-safe-mode-toast, .elementor-button, .elementor-panel .elementor-panel-scheme-buttons .elementor-button, .e-global__confirm-input-wrapper input, input, #elementor-panel-elements-search-input, .elementor-templates-modal .dialog-widget-content, .right-side-pwoo .right-side-pwoo h3, .persian-woocommerce .about-wrap h1, .persian-woocommerce .about-wrap h2, .persian-woocommerce .about-wrap h3, .persian-woocommerce .about-wrap h4, .persian-woocommerce .about-wrap h5, .persian-woocommerce .about-wrap h1, .persian-woocommerce .about-wrap h2, .persian-woocommerce .about-wrap h3, .persian-woocommerce .about-wrap h4, .persian-woocommerce .about-wrap h5, .persian-woocommerce, #wpbody, h1, h2, h3, h4, h5, h6, .persian-woocommerce h1, .persian-woocommerce h2, .persian-woocommerce h3, .persian-woocommerce h4, .persian-woocommerce h5, .persian-woocommerce h6 {
+    -moz-font-feature-settings: "ss02";
+    -webkit-font-feature-settings: "ss02";
+    font-feature-settings: "ss02";
+}
+
+

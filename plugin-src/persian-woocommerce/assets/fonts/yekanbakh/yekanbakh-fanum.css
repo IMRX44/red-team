@@ -1,0 +1,31 @@
+/**
+*
+*	Name:			Yekan Bakh Fonts
+*	Version:			3.1
+*	Author:			Reza Bakhtiarifard, Majan Jafarzadeh
+*	Created on:		Oct 2024
+*	Updated on:		Oct 2024
+*	Vendor:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت یکان‌بخ یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+Yekan Bakh fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (CJE506RH)
+------------------------------------------------------------------------------------- fonts/-
+*
+**/
+
+@font-face {
+    font-family: YekanBakhFaNum;
+    src: url('yekanbakh-fanum.woff2') format('woff2 supports variations'),
+    url('yekanbakh-fanum.woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --pw-admin-font-family: YekanBakhFaNum, sans-serif;
+}

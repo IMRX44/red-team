@@ -1,0 +1,1641 @@
+.woo-report-container *, .woo-report-container ::before, .woo-report-container ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(46 144 250 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+.woo-report-container ::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(46 144 250 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+.woo-report-container *,
+.woo-report-container ::before,
+.woo-report-container ::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #eaecf0; /* 2 */
+}
+
+.woo-report-container ::before,
+.woo-report-container ::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+.woo-report-container :host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+.woo-report-container hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+.woo-report-container abbr:where([title]) {
+  text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+.woo-report-container h1,
+.woo-report-container h2,
+.woo-report-container h3,
+.woo-report-container h4,
+.woo-report-container h5,
+.woo-report-container h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+.woo-report-container a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+.woo-report-container b,
+.woo-report-container strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+.woo-report-container code,
+.woo-report-container kbd,
+.woo-report-container samp,
+.woo-report-container pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+.woo-report-container small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+.woo-report-container sub,
+.woo-report-container sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.woo-report-container sub {
+  bottom: -0.25em;
+}
+
+.woo-report-container sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+.woo-report-container table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+.woo-report-container button,
+.woo-report-container input,
+.woo-report-container optgroup,
+.woo-report-container select,
+.woo-report-container textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+.woo-report-container button,
+.woo-report-container select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+.woo-report-container button,
+.woo-report-container input:where([type='button']),
+.woo-report-container input:where([type='reset']),
+.woo-report-container input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+.woo-report-container :-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+.woo-report-container :-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+.woo-report-container progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+.woo-report-container ::-webkit-inner-spin-button,
+.woo-report-container ::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+.woo-report-container [type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+.woo-report-container ::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+.woo-report-container ::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+.woo-report-container summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+.woo-report-container blockquote,
+.woo-report-container dl,
+.woo-report-container dd,
+.woo-report-container h1,
+.woo-report-container h2,
+.woo-report-container h3,
+.woo-report-container h4,
+.woo-report-container h5,
+.woo-report-container h6,
+.woo-report-container hr,
+.woo-report-container figure,
+.woo-report-container p,
+.woo-report-container pre {
+  margin: 0;
+}
+
+.woo-report-container fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+.woo-report-container legend {
+  padding: 0;
+}
+
+.woo-report-container ol,
+.woo-report-container ul,
+.woo-report-container menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+.woo-report-container dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+.woo-report-container textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+.woo-report-container input::placeholder,
+.woo-report-container textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #98a2b3; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+.woo-report-container button,
+.woo-report-container [role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+.woo-report-container :disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+.woo-report-container img,
+.woo-report-container svg,
+.woo-report-container video,
+.woo-report-container canvas,
+.woo-report-container audio,
+.woo-report-container iframe,
+.woo-report-container embed,
+.woo-report-container object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+.woo-report-container img,
+.woo-report-container video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+.woo-report-container [hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+.woo-report-container .container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+@media (min-width: 640px) {
+
+  .woo-report-container .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+
+  .woo-report-container .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .woo-report-container .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .woo-report-container .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+
+  .woo-report-container .container {
+    max-width: 1536px;
+  }
+}
+.woo-report-container .visible {
+  visibility: visible;
+}
+.woo-report-container .collapse {
+  visibility: collapse;
+}
+.woo-report-container .static {
+  position: static;
+}
+.woo-report-container .fixed {
+  position: fixed;
+}
+.woo-report-container .absolute {
+  position: absolute;
+}
+.woo-report-container .relative {
+  position: relative;
+}
+.woo-report-container .sticky {
+  position: sticky;
+}
+.woo-report-container .-left-\[1px\] {
+  left: -1px;
+}
+.woo-report-container .left-0 {
+  left: 0px;
+}
+.woo-report-container .left-2 {
+  left: 0.5rem;
+}
+.woo-report-container .right-0 {
+  right: 0px;
+}
+.woo-report-container .top-0 {
+  top: 0px;
+}
+.woo-report-container .top-2 {
+  top: 0.5rem;
+}
+.woo-report-container .top-\[calc\(100\%\+4px\)\] {
+  top: calc(100% + 4px);
+}
+.woo-report-container .z-0 {
+  z-index: 0;
+}
+.woo-report-container .z-10 {
+  z-index: 10;
+}
+.woo-report-container .z-20 {
+  z-index: 20;
+}
+.woo-report-container .z-\[1\] {
+  z-index: 1;
+}
+.woo-report-container .z-\[2\] {
+  z-index: 2;
+}
+.woo-report-container .z-\[99999\] {
+  z-index: 99999;
+}
+.woo-report-container .order-first {
+  order: -9999;
+}
+.woo-report-container .col-span-6 {
+  grid-column: span 6 / span 6;
+}
+.woo-report-container .col-span-full {
+  grid-column: 1 / -1;
+}
+.woo-report-container .mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.woo-report-container .mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.woo-report-container .my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.woo-report-container .mb-2 {
+  margin-bottom: 0.5rem;
+}
+.woo-report-container .mb-3 {
+  margin-bottom: 0.75rem;
+}
+.woo-report-container .mb-4 {
+  margin-bottom: 1rem;
+}
+.woo-report-container .mb-5 {
+  margin-bottom: 1.25rem;
+}
+.woo-report-container .mb-6 {
+  margin-bottom: 1.5rem;
+}
+.woo-report-container .mb-8 {
+  margin-bottom: 2rem;
+}
+.woo-report-container .mb-9 {
+  margin-bottom: 2.25rem;
+}
+.woo-report-container .ml-auto {
+  margin-left: auto;
+}
+.woo-report-container .mr-auto {
+  margin-right: auto;
+}
+.woo-report-container .line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.woo-report-container .block {
+  display: block;
+}
+.woo-report-container .inline-block {
+  display: inline-block;
+}
+.woo-report-container .inline {
+  display: inline;
+}
+.woo-report-container .flex {
+  display: flex;
+}
+.woo-report-container .inline-flex {
+  display: inline-flex;
+}
+.woo-report-container .\!table {
+  display: table !important;
+}
+.woo-report-container .table {
+  display: table;
+}
+.woo-report-container .grid {
+  display: grid;
+}
+.woo-report-container .hidden {
+  display: none;
+}
+.woo-report-container .size-2 {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.woo-report-container .size-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.woo-report-container .size-9 {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+.woo-report-container .h-10 {
+  height: 2.5rem;
+}
+.woo-report-container .h-2 {
+  height: 0.5rem;
+}
+.woo-report-container .h-3 {
+  height: 0.75rem;
+}
+.woo-report-container .h-5 {
+  height: 1.25rem;
+}
+.woo-report-container .h-6 {
+  height: 1.5rem;
+}
+.woo-report-container .h-7 {
+  height: 1.75rem;
+}
+.woo-report-container .h-8 {
+  height: 2rem;
+}
+.woo-report-container .h-\[400px\] {
+  height: 400px;
+}
+.woo-report-container .h-\[42px\] {
+  height: 42px;
+}
+.woo-report-container .h-full {
+  height: 100%;
+}
+.woo-report-container .\!max-h-40 {
+  max-height: 10rem !important;
+}
+.woo-report-container .max-h-0 {
+  max-height: 0px;
+}
+.woo-report-container .w-1\/2 {
+  width: 50%;
+}
+.woo-report-container .w-1\/3 {
+  width: 33.333333%;
+}
+.woo-report-container .w-1\/4 {
+  width: 25%;
+}
+.woo-report-container .w-1\/5 {
+  width: 20%;
+}
+.woo-report-container .w-16 {
+  width: 4rem;
+}
+.woo-report-container .w-2\/3 {
+  width: 66.666667%;
+}
+.woo-report-container .w-20 {
+  width: 5rem;
+}
+.woo-report-container .w-24 {
+  width: 6rem;
+}
+.woo-report-container .w-3 {
+  width: 0.75rem;
+}
+.woo-report-container .w-32 {
+  width: 8rem;
+}
+.woo-report-container .w-40 {
+  width: 10rem;
+}
+.woo-report-container .w-48 {
+  width: 12rem;
+}
+.woo-report-container .w-56 {
+  width: 14rem;
+}
+.woo-report-container .w-7 {
+  width: 1.75rem;
+}
+.woo-report-container .w-\[500px\] {
+  width: 500px;
+}
+.woo-report-container .w-\[calc\(100\%\+2px\)\] {
+  width: calc(100% + 2px);
+}
+.woo-report-container .w-full {
+  width: 100%;
+}
+.woo-report-container .min-w-10 {
+  min-width: 2.5rem;
+}
+.woo-report-container .min-w-6 {
+  min-width: 1.5rem;
+}
+.woo-report-container .min-w-9 {
+  min-width: 2.25rem;
+}
+.woo-report-container .max-w-full {
+  max-width: 100%;
+}
+.woo-report-container .rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.woo-report-container .transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.woo-report-container .cursor-pointer {
+  cursor: pointer;
+}
+.woo-report-container .resize {
+  resize: both;
+}
+.woo-report-container .grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+.woo-report-container .flex-col {
+  flex-direction: column;
+}
+.woo-report-container .flex-wrap {
+  flex-wrap: wrap;
+}
+.woo-report-container .items-center {
+  align-items: center;
+}
+.woo-report-container .justify-end {
+  justify-content: flex-end;
+}
+.woo-report-container .justify-center {
+  justify-content: center;
+}
+.woo-report-container .justify-between {
+  justify-content: space-between;
+}
+.woo-report-container .gap-1 {
+  gap: 0.25rem;
+}
+.woo-report-container .gap-1\.5 {
+  gap: 0.375rem;
+}
+.woo-report-container .gap-2 {
+  gap: 0.5rem;
+}
+.woo-report-container .gap-3 {
+  gap: 0.75rem;
+}
+.woo-report-container .gap-4 {
+  gap: 1rem;
+}
+.woo-report-container .gap-5 {
+  gap: 1.25rem;
+}
+.woo-report-container .gap-6 {
+  gap: 1.5rem;
+}
+.woo-report-container .gap-\[1px\] {
+  gap: 1px;
+}
+.woo-report-container .gap-x-2 {
+  column-gap: 0.5rem;
+}
+.woo-report-container .gap-x-6 {
+  column-gap: 1.5rem;
+}
+.woo-report-container .gap-y-3 {
+  row-gap: 0.75rem;
+}
+.woo-report-container .gap-y-8 {
+  row-gap: 2rem;
+}
+.woo-report-container .gap-x-5 {
+  column-gap: 1.25rem;
+}
+.woo-report-container .gap-y-2 {
+  row-gap: 0.5rem;
+}
+.woo-report-container .self-start {
+  align-self: flex-start;
+}
+.woo-report-container .overflow-auto {
+  overflow: auto;
+}
+.woo-report-container .overflow-hidden {
+  overflow: hidden;
+}
+.woo-report-container .text-nowrap {
+  text-wrap: nowrap;
+}
+.woo-report-container .rounded {
+  border-radius: 0.25rem;
+}
+.woo-report-container .rounded-2xl {
+  border-radius: 1rem;
+}
+.woo-report-container .rounded-full {
+  border-radius: 9999px;
+}
+.woo-report-container .rounded-lg {
+  border-radius: 0.5rem;
+}
+.woo-report-container .rounded-md {
+  border-radius: 0.375rem;
+}
+.woo-report-container .rounded-xl {
+  border-radius: 0.75rem;
+}
+.woo-report-container .border {
+  border-width: 1px;
+}
+.woo-report-container .border-y {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+.woo-report-container .\!border-l {
+  border-left-width: 1px !important;
+}
+.woo-report-container .border-b {
+  border-bottom-width: 1px;
+}
+.woo-report-container .border-l {
+  border-left-width: 1px;
+}
+.woo-report-container .\!border-primary-500 {
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(0 101 209 / var(--tw-border-opacity, 1)) !important;
+}
+.woo-report-container .border-\[\#D9E1E7\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(217 225 231 / var(--tw-border-opacity, 1));
+}
+.woo-report-container .border-gray-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(242 244 247 / var(--tw-border-opacity, 1));
+}
+.woo-report-container .border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(234 236 240 / var(--tw-border-opacity, 1));
+}
+.woo-report-container .border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(208 213 221 / var(--tw-border-opacity, 1));
+}
+.woo-report-container .border-light-border {
+  --tw-border-opacity: 1;
+  border-color: rgb(241 245 247 / var(--tw-border-opacity, 1));
+}
+.woo-report-container .border-primary-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 101 209 / var(--tw-border-opacity, 1));
+}
+.woo-report-container .border-primary-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 79 163 / var(--tw-border-opacity, 1));
+}
+.woo-report-container .border-transparent {
+  border-color: transparent;
+}
+.woo-report-container .\!border-opacity-100 {
+  --tw-border-opacity: 1 !important;
+}
+.woo-report-container .border-opacity-0 {
+  --tw-border-opacity: 0;
+}
+.woo-report-container .\!bg-gray-50 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1)) !important;
+}
+.woo-report-container .bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-blue-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 248 255 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-error-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 108 128 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-error-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 240 243 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 244 247 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(208 213 221 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-indigo-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(164 188 253 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-positive-state\/10 {
+  background-color: rgb(26 213 152 / 0.1);
+}
+.woo-report-container .bg-primary-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(204 228 255 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-primary-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 202 255 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-primary-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(87 168 255 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-primary-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 123 255 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-primary-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 247 255 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-primary-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 101 209 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-primary-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 79 163 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-success-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 253 243 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-warning-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 200 75 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-warning-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 250 235 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-warning-state\/10 {
+  background-color: rgb(234 58 61 / 0.1);
+}
+.woo-report-container .bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.woo-report-container .bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+.woo-report-container .bg-opacity-90 {
+  --tw-bg-opacity: 0.9;
+}
+.woo-report-container .p-1\.5 {
+  padding: 0.375rem;
+}
+.woo-report-container .p-2 {
+  padding: 0.5rem;
+}
+.woo-report-container .p-2\.5 {
+  padding: 0.625rem;
+}
+.woo-report-container .p-3 {
+  padding: 0.75rem;
+}
+.woo-report-container .p-4 {
+  padding: 1rem;
+}
+.woo-report-container .p-5 {
+  padding: 1.25rem;
+}
+.woo-report-container .px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+.woo-report-container .px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.woo-report-container .px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.woo-report-container .px-3\.5 {
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+}
+.woo-report-container .px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.woo-report-container .px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.woo-report-container .px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.woo-report-container .py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+.woo-report-container .py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.woo-report-container .py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+.woo-report-container .py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.woo-report-container .py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.woo-report-container .py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.woo-report-container .py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.woo-report-container .pb-2 {
+  padding-bottom: 0.5rem;
+}
+.woo-report-container .pt-0\.5 {
+  padding-top: 0.125rem;
+}
+.woo-report-container .pt-5 {
+  padding-top: 1.25rem;
+}
+.woo-report-container .text-center {
+  text-align: center;
+}
+.woo-report-container .\!text-sm {
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+}
+.woo-report-container .\!text-xs {
+  font-size: 0.75rem !important;
+  line-height: 1rem !important;
+}
+.woo-report-container .text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.woo-report-container .text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.woo-report-container .text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.woo-report-container .text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.woo-report-container .text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.woo-report-container .text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.woo-report-container .font-bold {
+  font-weight: 700;
+}
+.woo-report-container .font-normal {
+  font-weight: 400;
+}
+.woo-report-container .font-semibold {
+  font-weight: 600;
+}
+.woo-report-container .capitalize {
+  text-transform: capitalize;
+}
+.woo-report-container .italic {
+  font-style: italic;
+}
+.woo-report-container .leading-none {
+  line-height: 1;
+}
+.woo-report-container .text-\[\#171717\] {
+  --tw-text-opacity: 1;
+  color: rgb(23 23 23 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-blue-700 {
+  --tw-text-opacity: 1;
+  color: rgb(23 92 211 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-dark-primary {
+  --tw-text-opacity: 1;
+  color: rgb(23 24 26 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-error-700 {
+  --tw-text-opacity: 1;
+  color: rgb(101 14 29 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(152 162 179 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(102 112 133 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(71 84 103 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(52 64 84 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgb(29 41 57 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(16 24 40 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-light-primary {
+  --tw-text-opacity: 1;
+  color: rgb(128 159 184 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-positive-state {
+  --tw-text-opacity: 1;
+  color: rgb(26 213 152 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-primary-300 {
+  --tw-text-opacity: 1;
+  color: rgb(87 168 255 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-primary-500 {
+  --tw-text-opacity: 1;
+  color: rgb(0 101 209 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-primary-700 {
+  --tw-text-opacity: 1;
+  color: rgb(0 57 117 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-success-700 {
+  --tw-text-opacity: 1;
+  color: rgb(2 122 72 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-warning-700 {
+  --tw-text-opacity: 1;
+  color: rgb(181 71 8 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-warning-state {
+  --tw-text-opacity: 1;
+  color: rgb(234 58 61 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.woo-report-container .underline {
+  text-decoration-line: underline;
+}
+.woo-report-container .shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.woo-report-container .shadow-\[0_1px_2px_0_\#1018280D\] {
+  --tw-shadow: 0 1px 2px 0 #1018280D;
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.woo-report-container .outline {
+  outline-style: solid;
+}
+.woo-report-container .blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.woo-report-container .filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.woo-report-container .transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.woo-report-container .duration-300 {
+  transition-duration: 300ms;
+}
+@font-face {
+  font-family: YekanBakhFaNum;
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/yekanbakh/YekanBakhFaNum-thin.woff2") format("woff2");
+}
+@font-face {
+  font-family: YekanBakhFaNum;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/yekanbakh/YekanBakhFaNum-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: YekanBakhFaNum;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/yekanbakh/YekanBakhFaNum-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: YekanBakhFaNum;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/yekanbakh/YekanBakhFaNum-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: YekanBakhFaNum;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/yekanbakh/YekanBakhFaNum-SemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: YekanBakhFaNum;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/yekanbakh/YekanBakhFaNum-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: YekanBakhFaNum;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/yekanbakh/YekanBakhFaNum-Black.woff2") format("woff2");
+}
+body, html {
+  background-color: #F9FBFE;
+}
+
+.woo-report-container {
+  scroll-behavior: smooth;
+  direction: rtl;
+  font-weight: 500;
+  background-color: #F9FBFE;
+  letter-spacing: -0.025em;
+}
+
+.woo-report-container * {
+  font-family: "YekanBakhFaNum", "Vazirmatn", serif !important;
+}
+
+/* Global Styles */
+.woo-report-container a, .woo-report-container button {
+  transition-duration: 300ms;
+}
+
+.woo-report-container a {
+  outline: 0 !important;
+  display: inline-block;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.woo-report-container [x-cloak] {
+  display: none !important;
+}
+
+.woo-report-container .notice {
+  display: none !important;
+}
+
+.woo-report-container input, .woo-report-container textarea {
+  outline: none;
+  background-color: transparent;
+}
+.woo-report-container input:focus-visible, .woo-report-container textarea:focus-visible {
+  outline: none;
+}
+.woo-report-container input:focus, .woo-report-container textarea:focus {
+  border-color: #2271b1;
+  box-shadow: 0 0 0 1px #2271b1;
+  outline: 2px solid transparent;
+}
+
+.woo-report-container textarea {
+  display: block;
+}
+
+.woo-report-container .custom-scrollbar::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+.woo-report-container .custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: transparent;
+}
+.woo-report-container .custom-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #cccccc;
+}
+
+.woo-report-container .hidden-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.woo-report-container .hidden-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.woo-report-container .skeleton {
+  background: linear-gradient(90deg, #e0e0e0 25%, #f5f5f5 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+.woo-report-container .draggable-source--is-dragging {
+  opacity: 0.3;
+}
+
+.woo-report-container .draggable-mirror {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 244 247 / var(--tw-bg-opacity, 1));
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.woo-report-container canvas {
+  font-family: inherit !important;
+}
+
+.woo-report-container .loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #0065D1;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+.woo-report-container .rotation-animation {
+  display: block;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.woo-report-container .datepicker-container-inline * {
+  font-family: "YekanBakhFaNum", "Vazirmatn", serif !important;
+}
+.woo-report-container .datepicker-container-inline .datepicker-plot-area .datepicker-day-view .table-days td.selected span, .woo-report-container .datepicker-container-inline .datepicker-plot-area .datepicker-year-view .year-item.selected, .woo-report-container .datepicker-container-inline .datepicker-plot-area .datepicker-month-view .month-item.selected {
+  background-color: #004FA3 !important;
+}
+.woo-report-container .datepicker-container-inline .datepicker-plot-area .datepicker-day-view .table-days td {
+  padding: 1px;
+}
+.woo-report-container .datepicker-container-inline .datepicker-plot-area .datepicker-day-view .table-days td.today span {
+  background-color: rgba(0, 79, 163, 0.3);
+}
+.woo-report-container .datepicker-container-inline .pwt-btn-next, .woo-report-container .datepicker-container-inline .pwt-btn-prev {
+  color: transparent !important;
+  position: relative;
+}
+.woo-report-container .datepicker-container-inline .pwt-btn-next::after, .woo-report-container .datepicker-container-inline .pwt-btn-prev::after {
+  content: "";
+  display: block;
+  background-image: url("../images/icons/chevron-left.svg");
+  background-size: 100%;
+  background-position: center;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+.woo-report-container .datepicker-container-inline .pwt-btn-prev::after {
+  transform: rotate(180deg);
+}
+.woo-report-container .datepicker-container-inline .datepicker-plot-area .datepicker-day-view .table-days td span {
+  border-radius: 5px !important;
+}
+.woo-report-container .datepicker-container-inline .datepicker-navigator {
+  direction: ltr !important;
+  font-size: 14px;
+}
+.woo-report-container .datepicker-container-inline .datepicker-plot-area {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.tippy-box[data-theme~=tomato] {
+  background-color: #101828;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.woo-report-container .notyf {
+  z-index: 999999 !important;
+  font-family: "YekanBakhFaNum", "Vazirmatn", serif !important;
+}
+
+@media (min-width: 640px) {
+
+  .woo-report-container .notyf__wrapper {
+    min-width: 250px;
+  }
+}
+.woo-report-container .notyf__wrapper .notyf__dismiss {
+  width: 30px !important;
+}
+
+.woo-report-container .gateway-row.active .status {
+  background-color: #004fa3 !important;
+}
+.woo-report-container .gateway-row.active .status .status-circle {
+  right: 2px !important;
+}
+
+.woo-report-container .hover\:bg-gray-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 244 247 / var(--tw-bg-opacity, 1));
+}
+
+.woo-report-container .hover\:bg-primary-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 247 255 / var(--tw-bg-opacity, 1));
+}
+
+.woo-report-container .hover\:text-error-300:hover {
+  --tw-text-opacity: 1;
+  color: rgb(234 108 128 / var(--tw-text-opacity, 1));
+}
+
+.woo-report-container .hover\:text-primary-300:hover {
+  --tw-text-opacity: 1;
+  color: rgb(87 168 255 / var(--tw-text-opacity, 1));
+}
+
+.woo-report-container .hover\:shadow:hover {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.woo-report-container .disabled\:opacity-50:disabled {
+  opacity: 0.5;
+}
+
+@media (min-width: 640px) {
+
+  .woo-report-container .sm\:col-span-6 {
+    grid-column: span 6 / span 6;
+  }
+
+  .woo-report-container .sm\:size-7 {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  .woo-report-container .sm\:h-7 {
+    height: 1.75rem;
+  }
+
+  .woo-report-container .sm\:min-w-7 {
+    min-width: 1.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .woo-report-container .md\:col-span-6 {
+    grid-column: span 6 / span 6;
+  }
+
+  .woo-report-container .md\:gap-0 {
+    gap: 0px;
+  }
+
+  .woo-report-container .md\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .woo-report-container .md\:rounded-\[8px\] {
+    border-radius: 8px;
+  }
+
+  .woo-report-container .md\:rounded-none {
+    border-radius: 0px;
+  }
+
+  .woo-report-container .md\:border {
+    border-width: 1px;
+  }
+
+  .woo-report-container .md\:border-0 {
+    border-width: 0px;
+  }
+
+  .woo-report-container .md\:\!border-l {
+    border-left-width: 1px !important;
+  }
+
+  .woo-report-container .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .woo-report-container .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .woo-report-container .md\:py-2\.5 {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .woo-report-container .xl\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

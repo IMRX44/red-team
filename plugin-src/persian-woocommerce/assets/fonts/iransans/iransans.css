@@ -1,0 +1,32 @@
+/**
+*
+*	Name:			IRANSansX Fonts
+*	Version:			3
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Apr 22, 2021
+*	Updated on:		Jul 12, 2023
+*	Website:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونتایران سنس Xا یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRANSansX fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (PTIFVGNB)
+------------------------------------------------------------------------------------- fonts/-
+*
+**/
+@font-face {
+    font-family: IRANSans;
+    src: url('iransans.woff2') format('woff2 supports variations'),
+    url('iransans.woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --pw-admin-font-family: IRANSans, sans-serif;
+}
+
+

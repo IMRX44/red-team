@@ -1,0 +1,14 @@
+@font-face {
+    font-family: VazirMatn;
+    src: url('vazirmatn.woff2') format('woff2 supports variations'),
+    url('vazirmatn.woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --pw-admin-font-family: VazirMatn, sans-serif;
+}
+
+
